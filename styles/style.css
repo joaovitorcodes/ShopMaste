@@ -1,0 +1,127 @@
+@import url(produtos.css);
+@import url(noticia.css);
+@import url(funk.css);
+@import url(categorias.css);
+@import url(calça02.css);
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 15px;
+    margin: 0;
+}
+
+ul li {
+    margin: 0 20px;
+}
+
+ul li a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: blue;
+}
+
+h1, h2 {
+    text-align: center;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.especialidades {
+    background-color: black;
+    padding: 50px 20px;
+}
+
+.titulo2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.titulo2 span {
+    color: #ff9800;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.especialidades-box {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
+
+.destaques {
+    padding: 50px 20px;
+    background-color: black;
+}
+
+.destaques h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.destaque {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.produto {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+.produto img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.produto h3 {
+    margin-top: 10px;
+}
+
+.produto span {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #ff9800;
+}
+
+.btn-compra {
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-compra:hover {
+    background-color: #e57c00;
+}
